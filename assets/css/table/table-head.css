@@ -1,0 +1,14 @@
+.table-head {
+  background: var(--table-head);
+  font-weight: 700;
+  height: 6.4rem;
+}
+
+.table-head th:first-child {
+  border-top-left-radius: 1.2rem;
+}
+
+.table-head th:last-child {
+  border-top-right-radius: 1.2rem;
+}
+  

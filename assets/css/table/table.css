@@ -1,0 +1,16 @@
+.table,
+a {
+  color: var(--text-color);
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding-left: 4rem;
+}

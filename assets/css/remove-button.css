@@ -1,0 +1,6 @@
+.remove {
+  color: var(--remove-color);
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

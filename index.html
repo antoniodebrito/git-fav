@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitFav</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <img src="assets/img/logo-gitfav.svg" alt="logo escrito gitfav">
+
+      <div class="form">
+        <label for="username" class="sr-only">Digite o Github username que quer favoritar</label>
+        <input type="text" class="form-input" id="username" placeholder="Digite o Github username que quer favoritar">
+        <button class="form-search">
+          <img src="assets/img/button-star.svg" alt="estrela com contorno branco e centro transparente">
+          FAVORITAR
+        </button>
+      </div>
+    </header>
+    <table class="table">
+      <thead class="table-head">
+        <tr>
+          <th>Usuário</th>
+          <th>Repositories</th>
+          <th>Followers</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody class="table-body">
+        <tr>
+          <td>
+            <img class="user" src="https://github.com/antoniodebrito.png" alt="imagem de Usuário">
+            <a href="https://github.com/antoniodebrito" target="_blank">
+              <p>Antonio Brito</p>
+              <span>/antoniodebrito</span>
+            </a>
+          </td>
+
+          <td class="repositories">14</td>
+          <td class="followers">62</td>
+
+          <td>
+            <button class="remove">Remover</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

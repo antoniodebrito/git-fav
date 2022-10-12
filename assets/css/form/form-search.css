@@ -1,0 +1,15 @@
+.form-search {
+  align-items: center;
+  background: var(--bg-button);
+  border-radius: .5rem;
+  color: var(--base-color-one);
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+  gap: .8rem;
+  padding: 1.2rem 3.2rem;
+}
+
+.form-search img {
+  display: inline-block;
+}

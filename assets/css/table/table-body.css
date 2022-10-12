@@ -1,0 +1,19 @@
+.table-body td {
+  font-weight: 700;
+  padding: 4rem;
+}
+
+.table-body td:first-child,
+.table-body td:first-child a {
+  display: flex;
+}
+
+.table-body td:first-child {
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.table-body td:first-child a {
+  flex-direction: column;
+  gap: .8rem;
+}

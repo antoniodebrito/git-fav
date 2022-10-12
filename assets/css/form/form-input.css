@@ -1,0 +1,8 @@
+.form-input {
+  background: var(--bg-secondary);
+  border-radius: .5rem;
+  color: var(--fc-normal);
+  font-weight: 400;
+  padding: 1.6rem;
+  width: 46.2rem;
+}
