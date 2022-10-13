@@ -10,6 +10,15 @@
   padding: 1.2rem 3.2rem;
 }
 
+.form-search:hover {
+  background: var(--base-color-one);
+  color: var(--bg-button);
+}
+
+.form-search:hover path:first-child {
+  fill: var(--bg-button);
+}
+
 .form-search img {
   display: inline-block;
 }
