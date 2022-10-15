@@ -1,5 +1,6 @@
 # [git-fav](https://antoniodebrito.github.io/git-fav/) <= acesse a página online aqui 
-Desafio proposto pela [Rocketseat](https://shrinke.me/rocketseat) no seu treinamento Explorer, onde foi criado uma página para listar os usuários favoritos Utilizando a [api pública do GitHub](api.github.com/users/).
+Desafio proposto pela [Rocketseat](https://www.rocketseat.com.br/) no seu treinamento Explorer, onde foi criado uma página para listar os usuários favoritos Utilizando a [api pública do GitHub](api.github.com/users/).  
+
 ---
 Funcionalidades:
 - Buscar pelo login de usuário no Github
